@@ -1,6 +1,6 @@
 {
   "name": "@mlz/gulp-html-optimizer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Optimize html files.",
   "keywords": [
     "html",
@@ -32,12 +32,11 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "devDependencies": {
-    "@mlz/gulp-amd-bundler": "^2.0.0",
+  "dependencies": {
+    "@mlz/gulp-amd-bundler": "^2.0.1",
     "autoprefixer": "^10.3.1",
     "clean-css": "^5.1.5",
     "coffee-script": "^1.12.7",
-    "gulp": "^4.0.2",
     "gulp-coffee": "^3.0.3",
     "gulp-img-css-sprite": "^0.6.0",
     "gulp-less": "^5.0.0",
@@ -55,5 +54,8 @@
     "typescript": "^4.3.5",
     "uglify-es": "^3.3.9",
     "vinyl": "^2.2.1"
+  },
+  "peerDependencies": {
+    "gulp": "^4.0.2"
   }
 }
