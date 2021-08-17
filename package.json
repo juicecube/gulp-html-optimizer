@@ -1,0 +1,58 @@
+{
+  "name": "@mlz/gulp-html-optimizer",
+  "version": "2.0.0",
+  "description": "Optimize html files.",
+  "keywords": [
+    "html",
+    "optimize",
+    "gulpplugin"
+  ],
+  "homepage": "https://github.com/juicecube/gulp-html-optimizer",
+  "author": {
+    "name": "Gary Wang",
+    "email": "webyom@gmail.com",
+    "url": "http://webyom.org"
+  },
+  "contributors": [
+    {
+      "name": "Eric Tian",
+      "email": "tianxing0923@qq.com",
+      "url": "https://github.com/tianxing0923"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicecube/gulp-html-optimizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juicecube/gulp-html-optimizer/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "coffee-script": "^1.12.7",
+    "gulp": "^4.0.2",
+    "lodash": "^4.17.21",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "clean-css": "^5.1.5",
+    "gulp-coffee": "^3.0.3",
+    "gulp-img-css-sprite": "^0.6.0",
+    "gulp-less": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sus": "^0.6.0",
+    "loose-envify": "^1.4.0",
+    "plugin-error": "^1.0.1",
+    "q": "^1.5.1",
+    "sass": "^1.38.0",
+    "terser": "^5.7.1",
+    "through2": "^4.0.2",
+    "typescript": "^4.3.5",
+    "uglify-es": "^3.3.9",
+    "vinyl": "^2.2.1"
+  }
+}
